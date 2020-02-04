@@ -10,7 +10,7 @@ import java.util.Map;
 
 public class jdbc_utilexample {
 
-    String dbUrl = "jdbc:oracle:thin:@54.161.128.36:1521:xe";
+    String dbUrl = "jdbc:oracle:thin:@3.94.251.137:1521:xe";
     String dbUsername = "hr";
     String dbPassword = "hr";
     @Test
