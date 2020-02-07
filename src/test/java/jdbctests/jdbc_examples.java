@@ -21,6 +21,7 @@ public class jdbc_examples {
                 System.out.println(resultSet.getString("region_name"));
             }
             resultSet = statement.executeQuery("select country_name from countries");
+
             while (resultSet.next()) {
                 System.out.println(resultSet.getString("country_name"));
             }
