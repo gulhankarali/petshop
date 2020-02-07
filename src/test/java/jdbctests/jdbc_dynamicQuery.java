@@ -18,7 +18,6 @@ public class jdbc_dynamicQuery {
     @Test
     public void queryresult() throws SQLException {
         Connection connection = DriverManager.getConnection(dbUrl,dbUsername,dbPassword);
-
         Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
         ResultSet resultSet = statement.executeQuery("select first_name,last_name,salary,job_id \n" +
                 "from employees\n" +
